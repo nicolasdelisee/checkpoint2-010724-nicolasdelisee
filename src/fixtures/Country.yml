@@ -1,0 +1,62 @@
+entity: Country
+items:
+  country0:
+    code: "FR"
+    continentCode: "EU"
+    name: "France"
+    emoji: "🇫🇷"
+  country1:
+    code: "US"
+    continentCode: "NA"
+    name: "United States"
+    emoji: "🇺🇸"
+  country2:
+    code: "CN"
+    continentCode: "AS"
+    name: "China"
+    emoji: "🇨🇳"
+  country3:
+    code: "BR"
+    continentCode: "SA"
+    name: "Brazil"
+    emoji: "🇧🇷"
+  country4:
+    code: "AU"
+    continentCode: "OC"
+    name: "Australia"
+    emoji: "🇦🇺"
+  country5:
+    code: "ZA"
+    continentCode: "AF"
+    name: "South Africa"
+    emoji: "🇿🇦"
+  country6:
+    code: "DE"
+    continentCode: "EU"
+    name: "Germany"
+    emoji: "🇩🇪"
+  country7:
+    code: "RU"
+    continentCode: "EU"
+    name: "Russia"
+    emoji: "🇷🇺"
+  country8:
+    code: "JP"
+    continentCode: "AS"
+    name: "Japan"
+    emoji: "🇯🇵"
+  country9:
+    code: "IN"
+    continentCode: "AS"
+    name: "India"
+    emoji: "🇮🇳"
+  country10:
+    code: "CA"
+    continentCode: "NA"
+    name: "Canada"
+    emoji: "🇨🇦"
+  country11:
+    code: "MX"
+    continentCode: "NA"
+    name: "Mexico"
+    emoji: "🇲🇽"

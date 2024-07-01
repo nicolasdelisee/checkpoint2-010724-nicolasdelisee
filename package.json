@@ -1,0 +1,33 @@
+{
+  "name": "checkpoint2-010724-nicolasdelisee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loadFixtures": "fixtures-ts-node-commonjs load ./src/fixtures --dataSource=./lib/datasource.ts --sync",
+    "start": "ts-node-dev --watch ./src ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "apollo-server": "^3.13.0",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "type-graphql": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/yaml": "^1.9.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.16.0",
+    "typeorm": "^0.3.20",
+    "typeorm-fixtures-cli": "^4.0.0",
+    "typescript": "^5.5.2",
+    "yaml": "^2.4.5"
+  }
+}
